@@ -9,9 +9,6 @@ def clear():
     os.system("cls" if os.name == "nt" else "clear")  
     # limpiar pantalla
 
-
-
-
 # --- Funciones de persistencia ---
 def guardar_datos(nombre_archivo, datos):
     with open(nombre_archivo, "w", encoding="utf-8") as f:
@@ -298,8 +295,6 @@ class Egutegia(App):
                 break
             else:
                 print("ez du balio!")
-
-
 
 def main():
     apps = {
